@@ -112,7 +112,7 @@ backdrop-filter: blur(2px);
     height: 40vh;
     width: 100%;
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 
@@ -121,6 +121,10 @@ height: 100%;
 width: 100%;
 display: inline-block;
 padding: 2vw;
+animation-name: anime;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
 }
 
 #scroll img{
@@ -129,5 +133,16 @@ padding: 2vw;
     border-radius: 50%;
    width: 15%;
    object-fit: cover;
-   object-position: top;
+   object-position: 30% 30% ;
+}
+
+
+@keyframes anime {
+    from{
+        transform: translate(0);
+    }
+    to
+    {
+        transform: translate(-100%);
+    }
 }
