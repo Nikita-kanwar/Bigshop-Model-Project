@@ -59,13 +59,12 @@ html,body{
     height: 90vh;
     width: 100%;
     position: relative;
-    padding: 3vw;
+    padding: 5vw;
 }
 
 #content{
     height: 100%;
     width: 100%;
-    background-color: blue;
     position: relative;
 }
 
@@ -81,9 +80,10 @@ html,body{
     width: 100%;
     position: absolute;
     bottom: 0;
-    /* background-color: red; */
+    background-color: rgba(0, 0, 0, 0.274);
     padding: 2vw;
     color: #fff;
+backdrop-filter: blur(10px);
 }
 
 #over1{
