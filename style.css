@@ -111,7 +111,6 @@ backdrop-filter: blur(2px);
 #scroll{
     height: 40vh;
     width: 100%;
-    /* background-color: red; */
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
@@ -120,7 +119,6 @@ backdrop-filter: blur(2px);
 #container{
 height: 100%;
 width: 100%;
-/* background-color: blue; */
 display: inline-block;
 padding: 2vw;
 }
