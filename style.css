@@ -146,3 +146,45 @@ animation-timing-function: linear;
         transform: translate(-100%);
     }
 }
+
+#alphabet{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+
+}
+
+#alphabet h5{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 2px solid #000;
+      margin-right: 2vw;
+}
+   
+#alphabet h6{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: italic;
+    padding: 0.6vw 0.8vw;
+    border-radius: 50%;
+    cursor: pointer;
+   transition: all ease 0.2s;
+}
+  
+
+h6:hover{
+  border: 1px solid #000;
+}
