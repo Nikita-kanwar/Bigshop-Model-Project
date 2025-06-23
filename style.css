@@ -226,10 +226,37 @@ h6:hover{
     font-weight: 600;
 }
 
-
 #page2-text p{
     width: 70%;
  padding-left: 20px;
     font-size: 15px;
     font-weight: 500;
+}
+
+#page3{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   padding: 5vw 4vw;
+}
+
+#page3>h1{
+text-align: center;
+font-family: monument;
+text-transform: uppercase;
+font-size: 3vw;
+margin-bottom: 5vh;
+}
+
+
+.elem{
+    height: 18vh;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.elem:nth-last-child(1)
+{
+        border-bottom: 2px solid black;
+
 }
