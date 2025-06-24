@@ -253,10 +253,52 @@ margin-bottom: 5vh;
     height: 18vh;
     width: 100%;
     border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: relative;
+}
+
+.elem img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+       border-radius: 50%;
+       left: 12%;
+       opacity: 0;
+       object-fit: cover;
+       object-position: top;
+       transition: all ease 0.5s;
+}
+
+.elem .elem-part2{
+    width: 40%;
+}
+
+.elem .elem-part2 h1{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.elem-part2 h5{
+    font-size: 1vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.elem h4{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 10%;
 }
 
 .elem:nth-last-child(1)
 {
         border-bottom: 2px solid black;
 
+}
+
+.elem:hover img{
+    opacity: 1;left: 30%;
 }
