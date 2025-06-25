@@ -300,5 +300,6 @@ margin-bottom: 5vh;
 }
 
 .elem:hover img{
-    opacity: 1;left: 30%;
+    opacity: 1;
+    left: 30%;
 }
